@@ -1,0 +1,13 @@
+#obrazek1 {
+    float: left;
+    padding: 10px;
+}
+
+#obrazek2 {
+    float: right;
+    padding: 10px;
+}
+
+p:last-of-type {
+    clear: both;
+}
