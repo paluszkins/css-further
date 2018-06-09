@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+#tlo {
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/08/22/27/flower-3140492_960_720.jpg);
+    background-color: aqua;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-attachment: fixed;
+}
