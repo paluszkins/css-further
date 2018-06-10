@@ -1,0 +1,55 @@
+img {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    transition: all 0.7s;
+    transform-origin: top left;
+}
+
+div {
+    border: 5px solid grey;
+    width: 500px;
+    height: 500px;
+}
+
+.transform-rotate img:hover {
+    transform: rotate(-90deg);
+    transform-origin: center center;
+}
+
+.transform-translate img:hover {
+    transform: translate(300px, 200px);
+}
+
+.transform-scale {
+    overflow: hidden;
+}
+
+.transform-scale img:hover {
+    transform: scale(1.5);
+    transform-origin: center center;
+}
+
+@keyframes animation-example {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+}
+
+/*
+.animation img {
+    animation-name: animation-example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transform-origin: center center;
+}
+*/
+
+.animation img {
+    animation: animation-example 8s infinite ease-in;
+    transform-origin: center center;
+}
